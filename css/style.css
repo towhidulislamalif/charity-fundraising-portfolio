@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-/* Hero Section Start */
+/* Hero Section */
 #hero_image {
   background: url(../img/volunteer.jpg) no-repeat center;
   background-size: cover;
@@ -55,86 +55,90 @@ a {
   overflow: hidden;
   position: relative;
 }
+
 .hero_content {
-  position: absolute;
-  top: 50%;
+  color: #fff;
   left: 50%;
   overflow: hidden;
+  position: absolute;
+  top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff;
   text-transform: uppercase;
 }
-.hero_paragraph {
-  color: #fff;
-  margin-top: 21px;
-}
+
 .span_content {
   font-size: 20px;
 }
+
+.hero_paragraph {
+  color: #fff;
+  margin: 25px 0px;
+}
+
 .hero_content a {
   display: inline-block;
-  margin-top: 33px;
 }
+
 .hero_content .cta {
-  padding: 10px 24px;
-  border-radius: 5.5px;
   border: none;
+  border-radius: 7px;
+  margin: 12.5px;
+  padding: 12px 24px;
 }
 /* hero section end */
 
 /* donate start */
-.main_section {
+.donation {
   height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.main_heading {
+  margin: 75px 0px;
   text-align: center;
-  margin: 21px 0px;
 }
-.main_fcontainer {
+
+.donation_container {
   display: flex;
   justify-content: center;
 }
-.fitem {
-  width: 110px;
-  height: 110px;
+.donation_container .item {
+  width: 99px;
+  height: 99px;
   margin: 33px;
-  align-self: center;
 }
-.fpara {
+
+.paragraph {
   text-align: center;
-  padding-top: 43px;
+  padding-top: 41px;
 }
-.select {
+
+.para {
   width: 110px;
   height: 110px;
   border: 3px solid #ff5959;
 }
-.custom_amount form {
-  height: 250px;
+
+.donation_amount form {
+  height: 150px;
   text-align: center;
-  outline: none;
-  border-top: none;
+  text-decoration: none;
 }
 /* donate end */
 
 /* donate plan start */
-.donate_plan {
+.donation_plan {
   text-align: center;
 }
-.donate-plan-container {
+
+.donation_plan_container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.item {
-  background: #4f9da6;
-  border: 1px solid #4f9da6;
-  width: 150;
-  height: 150px;
-  margin: 15px;
+
+.donation_plan_container .item {
+  width: 350px;
+  height: 250px;
+  margin: 65px;
+  padding: 20px 30px;
 }
 
 /* donate plan end */
@@ -144,36 +148,59 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 150px;
+  margin: 150px 0px;
 }
-.contribute_desc {
+
+.contribute_content {
   width: 450px;
-  padding-right: 21px;
 }
-.contribute_desc .cta {
+
+.contribute_content .cta {
   display: inline-block;
-  margin-top: 50px;
+  margin: 50px 0px;
   padding: 10px 15px;
-  border-radius: 5.5px;
+  border-radius: 7px;
 }
-.contribute_container2 {
+
+.contribute_container_two {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 150px;
-  margin-bottom: 200px;
+  margin: 150px 0px;
+  /* margin-bottom: 200px; */
 }
-.contribute_desc2 {
+
+.contribute_content_two {
   width: 450px;
-  padding-right: 21px;
 }
-.contribute_desc2 .cta {
+
+.contribute_content_two .cta {
   display: inline-block;
-  margin-top: 50px;
+  margin: 50px 0px;
   padding: 10px 15px;
-  border-radius: 5.5px;
+  border-radius: 7px;
 }
-/* contribute end */
+
+.contribute_container_three {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 150px 0px;
+}
+
+.child_img {
+  background-size: cover;
+  height: 750px;
+  overflow: hidden;
+  position: relative;
+}
+
+.contribute_container_three .cta {
+  display: inline-block;
+  margin: 50px 0px;
+  padding: 10px 15px;
+  border-radius: 7px;
+}
 
 /* form start */
 .update_heading {
