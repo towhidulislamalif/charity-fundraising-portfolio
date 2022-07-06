@@ -9,11 +9,12 @@
 </head>
 <body>
     <!-- Hero Section -->
-    <section id="hero-image">
-        <div class="hero-content">
-            <div class="hero-inner-content">
-
-            </div>
+    <section id="hero_image">
+        <div class="hero_content">
+            <span class="span_content">We Need Your</span>
+            <h1>Support!</h1>
+            <p class="hero_paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quod molestiae aperiam cum quidem. Similique?</p>
+            <a href="#" class="cta">Donate Now</a>
         </div>
     </section>
     <!-- Hero Section End -->
@@ -24,53 +25,62 @@
 
     <!-- main section -->
     <main id="main">
-        <!-- fundraising start -->
-        <section class="fundraising">
-            <article class="main-fundraising">
-                <h2>Donate Today</h2>
-                <p>The efforts of one person can't move mountains. It's the strength of us all working together that makes a change.</p>
+        <!-- donate start -->
+        <section class="main_section">
+            <article class="main_article">
+                <h2 class="main_heading">Donate Today</h2>
+                <p class="main_paragraph">The efforts of one person can't move mountains. It's the strength of us all working together that makes a change.</p>
             </article>
         </section>
-        <section class="main-fundraising-container">
-            <div class="main-item">
-                <p>100tk</p>
+        <section class="main_fcontainer">
+            <div class="fitem">
+                <p class="fpara">100tk</p>
             </div>
-            <div class="main-item">
-                <p>500tk</p>
+            <div class="fitem">
+                <p class="fpara select">500tk</p>
             </div>
-            <div class="main-item">
-                <p>1000tk</p>
+            <div class="fitem">
+                <p class="fpara">1000tk</p>
             </div>
-            <div class="main-item">
-                <p>5000tk</p>
+            <div class="fitem">
+                <p class="fpara">5000tk</p>
             </div>
-            <div class="main-item">
-                <p>10000tk</p>
+            <div class="fitem">
+                <p class="fpara">10000tk</p>
             </div>
-            <a href="#" class="btn cta">Donate Now</a>
         </section>
-        <!-- fundraising end -->
+        <section class="custom_amount">
+            <form>
+                <input type="number" name="taka" id="taka" placeholder="Other Amount Taka" class="amount">
+                <input type="submit" value="Donate Now" class="btn">
+            </form>            
+        </section>
+        
+        <!-- donate end -->
 
 
 
 
 
         <!-- donate plan -->
-        <section class="donate-plan">
-            <h3>Our Donate Plan</h3>
+        <section class="donate_plan">
+            <h2>Our Donate Plan</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt perspiciatis vitae voluptatibus consectetur fugiat impedit molestias neque vero quasi. Distinctio?</p>
         </section>
         <section class="donate-plan-container">
-            <div class="food-for-a-family">
+            <div class="item">
+                <img src="./icons/food.png" alt="">
                 <h3>Food for a family</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ad doloremque et, dolorum sapiente amet?</p>
             </div>
-            <div class="shelter-for-a-family">
+            <div class="item">
+                <img src="./icons/shelter.png" alt="">
                 <h3>Shelter for a family</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum veritatis quasi natus omnis, ab quisquam nemo? Explicabo.</p>
             </div>
-            <div class="education-for-children">
-                <h3 class=>Education for a family</h3>
+            <div class="item">
+                <img src="./icons/icon6.svg" alt="">
+                <h3 class=>Education for children</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quae assumenda non provident, velit repudiandae corrupti esse.</p>
             </div>
         </section>
@@ -117,7 +127,7 @@
         <section class="form">
                   <form>
                     <input type="email" class="useremail" name="useremail" id="useremail" placeholder="someone@example.com" required>
-                    <button>Subscribe</button>
+                    <input type="submit" value="Subscribe" class="btn">
                   </form>
         </section>
         <!-- update form end -->
@@ -131,7 +141,7 @@
     <!-- footer -->
     <footer class="footer">
         <p>Be a good human being</p>
-        <p>&copy;</p>
+        <p>&copy; Copyright Licence</p>
     </footer>
     <!-- footer end -->
 </body>
