@@ -44,4 +44,63 @@ a {
   font-size: 20px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
+  text-decoration: none;
 }
+/* Contribute Or Aside Start */
+.contribute_container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contribute_image2 {
+}
+.contribute_desc2 {
+}
+
+/* form start */
+.update_heading {
+  text-align: center;
+}
+.update_paragraph {
+  text-align: center;
+  margin: 25px 0px;
+}
+.form {
+  background-color: #fff4d6;
+  border-radius: 5.5px;
+  width: 800px;
+  height: 200px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  background-color: #d9d9d9;
+  border: 0;
+  outline: none;
+  padding: 10px 20px;
+  border-bottom-left-radius: 5.5px;
+  border-top-left-radius: 5.5px;
+}
+button {
+  background-color: #ff5959;
+  padding: 10px 20px;
+  border: 0;
+  outline: none;
+  border-bottom-right-radius: 5.5px;
+  border-top-right-radius: 5.5px;
+  cursor: pointer;
+}
+/* form end */
+/* footer start */
+footer {
+  background-color: #0b0d17;
+  height: 99px;
+  margin-top: 150px;
+}
+footer p {
+  text-align: center;
+  padding-top: 10px;
+}
+/* footer end */
