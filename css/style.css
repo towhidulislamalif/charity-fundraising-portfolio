@@ -82,6 +82,7 @@ a {
   border: none;
 }
 /* hero section end */
+
 /* donate start */
 .main_section {
   height: 300px;
@@ -119,6 +120,7 @@ a {
   border-top: none;
 }
 /* donate end */
+
 /* donate plan start */
 .donate_plan {
   text-align: center;
@@ -131,9 +133,47 @@ a {
   background: #4f9da6;
   border: 1px solid #4f9da6;
   width: 150;
-  height: 150;
+  height: 150px;
   margin: 15px;
 }
+
+/* donate plan end */
+
+/* contribute start */
+.contribute_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+}
+.contribute_desc {
+  width: 450px;
+  padding-right: 21px;
+}
+.contribute_desc .cta {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 10px 15px;
+  border-radius: 5.5px;
+}
+.contribute_container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+.contribute_desc2 {
+  width: 450px;
+  padding-right: 21px;
+}
+.contribute_desc2 .cta {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 10px 15px;
+  border-radius: 5.5px;
+}
+/* contribute end */
 
 /* form start */
 .update_heading {
